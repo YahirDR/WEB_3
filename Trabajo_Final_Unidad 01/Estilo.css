@@ -1,0 +1,144 @@
+body{
+    /*Alumno: Duran Ruiz Juan Yahir*/
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: radial-gradient(circle, #4ed841, #2f34bf);
+
+}
+/*Seccion de cabecera*/
+.cont_cabecera{
+    display: flex;
+    background-color: #00152a;
+    justify-content: space-between;
+    padding-top: 20px;
+    height: 140px;
+    align-items: center;
+    color: aqua;
+    font-size: 24px;
+    
+}
+.curso_cabecera_elem_1{
+    margin-left: 50px;
+
+}
+.curso_cabecera_elem_2{
+    margin-left: 160px;
+    text-align: center;
+}
+.curso_cabecera_elem_3{
+    
+    margin-right: 50px;
+   
+}
+.sin-sub-verde a{
+    text-decoration: none;
+    color: yellow;
+}
+.sin-sub-verde a:hover{
+    text-decoration: underline;
+    color: blue;
+    font-size: 28px;
+}
+
+.curso_cabecera_elem_1 img{
+    width: 140px; 
+}
+
+
+/*Titulo del curso*/
+.cont_curso_tit{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    font-size: 40px;
+    font-weight: bold;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+/*Cabecera de contenido*/
+.cont_curso_medio {
+    display: grid; /* Permite ajustar los elementos del contenedor en formato de cuadrícula */
+    margin-left: 4%;
+    margin-right: 2%;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 100px;
+   
+}
+.curso_medio_elem{
+    font-size: 20px;
+    text-align: center;
+    border: 3px solid black;
+    border-radius: 100px;
+    padding: 40px;
+    background-color: #2980b9 ;
+    box-shadow:  0px 30px 20px rgba(0, 0, 0, 0.4);
+}
+
+
+.curso_medio_elem img{
+    width: 100px; /* Ajusta el tamaño de la imagen F3E25C*/
+    margin-right: 20px; /* Espacio entre la imagen y el texto */
+    padding-top: 20px;
+}
+.curso_medio_elem img:hover{
+    width: 110px; /* Ajusta el tamaño de la imagen F3E25C*/
+    margin-right: 20px; /* Espacio entre la imagen y el texto */
+    padding-top: 20px;
+}
+
+.curso_medio_elem a{
+   font-size: 24px;
+   color: #F3E25C   ;
+   font-weight: bold;
+   
+}
+.curso_medio_elem a:hover{
+    font-size: 24px;
+    color: #800080;
+    font-weight: bold;
+ }
+.rojo_mediano{
+    font-size: 21px;
+    font-weight: bold;
+    
+}
+.curso_medio_elem .sin-sub-azul{
+    display: flex;
+    padding-top: 30px;
+    font-size: 24px;
+   
+}
+/*Contenido del curso*/
+.cont_curso{
+    margin-top: 70px;
+    margin-bottom: 80px;
+    margin-left: 101px;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 20px;
+}
+.curso_elem a{
+    display: flex;
+    color: black;
+    border: 4px solid black;
+    align-items: center;
+    justify-content: center;
+    height: 70px;
+    width: 300px;
+    text-align: center;
+    font-size: 20px;
+    color: black;
+    text-decoration: none;
+    background-color: #00FFFF;
+    box-shadow:  20px 20px 20px rgba(0, 0, 0, 0.4);
+}
+.curso_elem a:hover{
+    background-color: #70A3CC;
+    text-decoration: underline;
+    color: blue ;
+    font-size: 24px;
+    font-weight: bold;
+    height: 90px;
+    width: 325px;
+}

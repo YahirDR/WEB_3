@@ -1,0 +1,95 @@
+body{
+    background-color: rgb(233, 223, 223);
+    font-family: Arial, sans-serif;
+}
+
+.top{
+    background-color: blue;
+    padding-bottom: 20px;
+    border-top: 2px solid black;
+    border-left: 2px solid black;
+    border-right: 2px solid black;
+   
+    color: white; /* Cambia el color del texto para contraste */
+}
+
+.name{
+    font-size: 36px; /* Aumenta el tamaño del nombre */
+    margin: 0; /* Elimina el margen superior e inferior */
+    text-align: right; /* Centra el texto */
+    padding-right: 20%;
+}
+.ing{
+    margin: 0; /* Elimina el margen superior e inferior */
+    text-align: right; /* Centra el texto */
+    padding-right: 20%;
+    color: white;
+}
+.top h2{
+    font-size: 24px; /* Aumenta el tamaño del subtítulo */
+    margin-top: 5px;
+}
+
+.contenido{
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.izquierda, .derecha{
+    flex: 1;
+    text-align: justify;
+    border-bottom: 2px solid black;
+    font-size: 18px; /* Aumenta el tamaño del texto del contenido */
+}
+
+.izquierda{
+    background-color: pink;
+    padding: 20px;
+    border-left: 2px solid black;
+}
+
+.derecha{
+    background-color: #a390c9;
+    padding: 20px;
+    border-right: 2px solid black;
+}
+
+h2{
+    font-size: 24px; /* Aumenta el tamaño de los subtítulos */
+    margin-bottom: 10px;
+    color: green;
+}
+
+.numberPhone, .emailContact{
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.number, .email{
+    padding-left: 10px;
+    color: blue;
+}
+
+.iconPhone, .iconEmail{
+    width: 24px;
+    height: 24px;
+    vertical-align: middle;
+}
+
+.listaAptitudes{
+    color: blue;
+    padding-left: 20px; /* Añade espacio a la izquierda */
+    list-style-type: disc; /* Cambia el estilo de la lista a viñetas */
+}
+
+ul{
+    padding-left: 20px; /* Añade espacio a la izquierda en todas las listas */
+}
+
+.aboutMe{
+    color: black;
+    text-align: justify;
+    line-height: 1.6; /* Mejora la legibilidad */
+}

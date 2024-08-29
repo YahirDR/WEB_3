@@ -1,0 +1,67 @@
+/*Parte superior (Header)*/
+header{
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+}
+h1{
+    font-size: larger;
+}
+
+nav ul{
+    /*Quitamos el tipo de estilo de la lista*/
+  list-style-type: none;  
+}
+nav li{
+    display: inline;/*Mostramos los elementos en horizontal (en fila)*/
+    padding: 15px;
+}
+nav a{
+    color: black;
+    text-decoration: none;
+}
+nav button{
+    border-radius: 5px; /*Permite ajustar el redondeo*/
+    border-color: gray;
+    padding: 5px 18px 5px 18px;
+    text-align: center;
+    cursor: pointer;
+}
+/*Contenido principal (main)*/
+
+section{
+    display: flex;
+    flex-direction: column; /*Acomoda los elementos en formato de columna */
+    align-items: center;
+    background-color: #f5e4e464;
+    padding-top: 5%;
+}   
+section button{
+    border-radius: 5px; /*Permite ajustar el redondeo*/
+    color: white;
+    background-color: black;
+    padding: 11px 35px 11px 35px;
+    cursor: pointer;
+}
+h2{
+    display: flex;
+    justify-content: center;
+}
+/*Contenido de galeria*/
+
+a{
+    text-decoration: none;
+    color: black;
+}
+.gallery{
+    padding-top: 50px;
+    display: flex;
+    justify-content: space-between;
+    gap: 30px; /*Permite agregar espacio entre elementos donde el contenedor usa display flex*/
+}
+/*Pie de pagina*/
+footer{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 10%;
+}
